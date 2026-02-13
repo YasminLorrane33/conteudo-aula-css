@@ -1,5 +1,6 @@
 body {
     background-color: paleturquoise;
+    justify-items: center;
 }
 
 .el1 {
@@ -10,5 +11,6 @@ body {
 .ex1 {
     width: 500px;
     padding: 50px;
+    box-sizing: border-box;
     background-color: darkred;
 }
