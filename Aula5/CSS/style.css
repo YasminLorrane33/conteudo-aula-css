@@ -105,3 +105,21 @@ body{
     text-align: center;
     font-size: 30px;
 }
+
+/* Exemplo flex-wrap: wrap-reverse */
+.ex7 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    background-color: brown;
+    gap: 10px;
+}
+
+.ex7 div{
+    background-color: rgb(86, 78,69);
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}

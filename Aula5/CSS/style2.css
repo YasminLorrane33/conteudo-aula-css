@@ -1,0 +1,49 @@
+body {
+    background-color: darkslategrey;
+    color: #fff;
+}
+
+/* Exemplo de justify-content:center */
+.ex1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: darkolivegreen;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: darkkhaki;
+}
+
+/* Exemplo de justify-content: flex-start */
+.ex2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: darkolivegreen;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: darkkhaki;
+}
+
+/* Exemplo de justify-content: flex-end */
+.ex3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    background-color: darkolivegreen;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: darkkhaki;
+}
