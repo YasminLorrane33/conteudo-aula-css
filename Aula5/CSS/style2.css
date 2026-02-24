@@ -47,3 +47,48 @@ body {
     justify-content: center;
     background-color: darkkhaki;
 }
+
+/* Exemplo de justify-content: space-around*/
+.ex4 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: darkolivegreen;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: darkkhaki;
+}
+
+/* Exemplo de justify-content: space-between*/
+.ex5 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: darkolivegreen;
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: darkkhaki;
+}
+
+/* Exemplo de justify-content: space-evenly*/
+.ex6 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    background-color: darkolivegreen;
+}
+
+.ex6 div{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: darkkhaki;
+}

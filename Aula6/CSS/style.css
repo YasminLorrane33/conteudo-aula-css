@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(96, 96, 126);
+}
+
+/* Exemplo de flex items - order */
+
+.ex1 {
+    display: flex;
+    gap: 30px;
+    background-color: #a85c91;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+/* Exemplo de flex-grow */
+
+.ex2 {
+    display: flex;
+    gap: 30px;
+    background-color: #a85c91;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(148, 186, 199);
+}
+
+/* Exemplo de flex-shrink */
+
+.ex3 {
+    display: flex;
+    gap: 30px;
+    background-color: #a85c91;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(148, 186, 199);
+}
+
+/* Exemplo de flex-basis */
+
+.ex4 {
+    display: flex;
+    gap: 30px;
+    background-color: #a85c91;
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(148, 186, 199);
+}
+
+/* Exemplo de align-self: center */
+
+.ex5 {
+    background-color: #a85c91;
+    height: 200px;
+    display: flex;
+    gap: 30px;
+}
+
+.ex5 div {
+    width: 100px;
+    background-color: rgb(148, 186, 199);
+}
+
+.ex5 #it3 {
+    align-self: center;
+    background-color: white;
+    height: 100px;
+}
+
+/* Exemplo de align-self: flex-start e align-self: flex-end */
+
+.ex6 {
+    display: flex;
+    height: 200px;
+    gap: 30px;
+    background-color: #a85c91;
+}
+
+.ex6 div {
+    width: 100px;
+    background-color: rgb(148, 186, 199);
+}
+
+.ex6 #item2 {
+    align-self: flex-start;
+    background-color: white;
+    height: 100px;
+}
+
+.ex6 #item3 {
+    align-self: center;
+    background-color: white;
+    height: 100px;
+}
+
+.ex6 #item4 {
+    align-self: flex-end;
+    background-color: white;
+    height: 100px;
+}

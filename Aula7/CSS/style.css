@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+    background-color: darkblue;
+    color: #f1f1f1;
+}
+
+/*Exemplo de justify-content:space-evenly*/
+.ex1{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+/*Exemplo de justify content:space around*/
+.ex2{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+/*Exemplo de justify content:space betweem*/
+.ex3{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
+
+/*Exemplo de justify content:space betweem*/
+.ex4{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    background-color: darkcyan;
+}
